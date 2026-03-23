@@ -10,7 +10,7 @@ Preencher dezenas de campos de horário (ex: 12:00 AM, 12:30 AM...) em sistemas 
 * **Bypass de Dropdown (Bug do Número 1):** Em alguns inputs de hora, digitar '1' aciona atalhos indesejados (como pular para as 10h). O script contorna isso de forma inteligente digitando '2' e usando a seta direcional para cima (`up`).
 * **Navegação Reversa Dinâmica:** Após adicionar uma nova linha, o bot utiliza a combinação `Shift + Tab` para retornar aos campos vazios. Ele possui uma lógica matemática (`i == len(horarios) - 2`) para recalcular a quantidade de "Tabs" necessários na última iteração, prevenindo que o fluxo quebre quando o botão "Adicionar" desaparece da tela.
 
-## 🛠️ Tecnologias e Pré-requisitos
+## Pré-requisitos
 * **Python 3.x**
 * **PyAutoGUI:** Biblioteca para simulação de cliques e teclado.
 
