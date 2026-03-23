@@ -1,8 +1,8 @@
-# 🤖 RPA: Preenchimento de Horários
+# RPA: Preenchimento de Horários
 
 > Script em Python desenvoldida para sanar uma dor que é configurar 48 horários diferentes no ciclo de atualização de um fluxo de dados no workspace.
 
-## 📌 Sobre a Automação
+## Sobre a Automação
 Preencher dezenas de campos de horário (ex: 12:00 AM, 12:30 AM...) em sistemas web costuma ser uma tarefa exaustiva. Este script utiliza a biblioteca `pyautogui` para assumir o controle do teclado e realizar o preenchimento em loop de forma rápida e precisa.
 
 **Destaques do Código (Tratamento de Exceções de UI):**
